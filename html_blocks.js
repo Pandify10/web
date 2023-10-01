@@ -1127,6 +1127,24 @@ var htmlBlocks =
   "colour": 0,
   "tooltip": "",
   "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+{
+  "type": "insert_html",
+  "message0": "custom html: %1",
+  "args0": [
+    {
+      "type": "field_input",
+      "name": "custom html",
+      "text": "html"
+    }
+  ],
+  "inputsInline": false,
+  "previousStatement": "String",
+  "nextStatement": "String",
+  "colour": 260,
+  "tooltip": "Custom html block that makes coding your site that much easier!",
+  "helpUrl": "http://www.w3schools.com/tags/tag_html.asp"
+}
+
 }];
 
 if (Msg && Msg.blocks) {
